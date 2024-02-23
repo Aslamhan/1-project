@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  color: #fff;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+
+.main-block {
+  background-image: url("resources/background.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.main-content {
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.icons {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}
+
+.main-question {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+.icons img {
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 13px;
+}
+
+.main-text {
+  margin-bottom: 44px;
+}
+/* ---------------------------------- */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+ul {
+  display: flex;
+  padding: 10px;
+  font-size: 17px;
+}
+li {
+  margin-right: 35px;
+  padding: 10px;
+  border-radius: 3px;
+}
+.header__item {
+  background-color: rgb(255, 129, 19);
+  font-weight: bold;
+}
+.header__item:hover {
+  transform: rotate(720deg);
+  transition: 3s;
+}
+li:hover {
+  background-color: rgb(255, 129, 19);
+}
+a {
+  text-decoration: none;
+}
+
+/* --------------------------------------------------- */
